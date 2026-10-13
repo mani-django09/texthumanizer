@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Text Humanizer: Edit AI Drafts So They Read Naturally</title>
+<meta name="description" content="A practical guide to editing AI-written drafts: what makes text sound machine-made, how an AI humanizer rewrites it, and what each free tool at texthumanizer.site does and does not do.">
+<link rel="canonical" href="https://mani-django09.github.io/texthumanizer/">
+<meta property="og:title" content="Text Humanizer: Edit AI Drafts So They Read Naturally">
+<meta property="og:description" content="What makes text sound machine-made, how a humanizer rewrites it, and how to use the free tools.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://mani-django09.github.io/texthumanizer/img/humanizer-result.webp">
+<style>
+:root{--bg:#fff;--ink:#0f172a;--mute:#475569;--line:#e2e8f0;--soft:#f8fafc;--brand:#4f46e5;--brand2:#2563eb}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1020;--ink:#e5e7eb;--mute:#94a3b8;--line:#1e293b;--soft:#111936;--brand:#818cf8;--brand2:#60a5fa}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:16px 20px}
+header b{font-size:18px}
+nav a{margin-left:18px;font-size:15px;color:var(--mute);text-decoration:none}
+nav a:hover{color:var(--brand)}
+.hero{padding:56px 0 28px}
+h1{font-size:clamp(30px,5vw,44px);line-height:1.15;margin:0 0 16px;letter-spacing:-.02em}
+h2{font-size:26px;margin:44px 0 10px;letter-spacing:-.01em}
+h3{font-size:19px;margin:24px 0 6px}
+p{margin:0 0 14px;color:var(--mute)}
+a{color:var(--brand)}
+.lead{font-size:19px}
+.cta{display:inline-block;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff!important;text-decoration:none;padding:12px 22px;border-radius:12px;font-weight:600;margin-top:6px}
+img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px;display:block;margin:18px 0 6px}
+figcaption{font-size:14px;color:var(--mute);margin-bottom:18px}
+figure{margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0}
+.card{border:1px solid var(--line);background:var(--soft);border-radius:14px;padding:16px}
+.card h3{margin:0 0 4px;font-size:17px}
+.card p{margin:0;font-size:15px}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:15px}
+th,td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left}
+th{color:var(--ink)} td{color:var(--mute)}
+details{border-bottom:1px solid var(--line);padding:12px 0}
+summary{cursor:pointer;font-weight:600;color:var(--ink)}
+details p{margin:8px 0 0}
+footer{border-top:1px solid var(--line);margin-top:56px;padding:26px 0;font-size:14px;color:var(--mute)}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Text Humanizer: Edit AI Drafts So They Read Naturally","url":"https://mani-django09.github.io/texthumanizer/","about":{"@type":"WebApplication","name":"Text Humanizer","url":"https://texthumanizer.site","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}}
+</script>
+</head>
+<body>
+<header><div class="wrap"><b>Text Humanizer</b>
+<nav><a href="#why">Why drafts sound robotic</a><a href="#tools">Tools</a><a href="#faq">FAQ</a><a href="https://github.com/mani-django09/texthumanizer">Source</a></nav></div></header>
+
+<main class="wrap">
+<section class="hero">
+<h1>Edit AI drafts so they read like a person wrote them</h1>
+<p class="lead">AI assistants write quickly, but their drafts share habits: even sentence lengths, stock transitions and cautious filler. <a href="https://texthumanizer.site/ai-humanizer">Text Humanizer</a> is a free web tool that rewrites those patterns, plus a grammar checker, an AI-style detector and a plagiarism checker. This page explains how the tools work and where their limits are.</p>
+<a class="cta" href="https://texthumanizer.site/ai-humanizer">Try the AI humanizer, no signup</a>
+<figure><img src="img/humanizer-result.webp" alt="Text Humanizer showing an AI draft rewritten with a Human Score estimate" width="1280" height="855" loading="eager">
+<figcaption>Real output from the tool: the rewritten draft, with a Human Score estimate for the original and the result.</figcaption></figure>
+</section>
+
+<section id="why">
+<h2>Why AI drafts sound robotic</h2>
+<p>None of these is wrong on its own. Together they make a draft feel generic.</p>
+<div class="grid">
+<div class="card"><h3>Uniform rhythm</h3><p>Sentences land at similar lengths, so there is no short punch after a long one.</p></div>
+<div class="card"><h3>Stock transitions</h3><p>"Moreover", "Furthermore" and "In conclusion" appear far more often than people use them.</p></div>
+<div class="card"><h3>Hedged filler</h3><p>Phrases like "it is important to note that" add words without adding information.</p></div>
+<div class="card"><h3>No specifics</h3><p>Claims stay general: no names, numbers, places or small details only the writer would know.</p></div>
+</div>
+<p>The post <a href="https://texthumanizer.site/blog/words-that-sound-ai-generated">Words that sound AI-generated</a> lists the most common offenders, and <a href="https://texthumanizer.site/blog/edit-ai-draft-checklist">this editing checklist</a> walks through a manual pass.</p>
+</section>
+
+<section id="how">
+<h2>What a humanizer actually does</h2>
+<p>It rewrites sentence structure and word choice while keeping the meaning. Text Humanizer offers several styles, and you can click any sentence in the result to rewrite just that one. A <em>Changes</em> tab shows what was altered, so you review the edit rather than trusting it blindly.</p>
+<figure><img src="img/humanizer-diff.webp" alt="Changes view highlighting which words and sentences were reworded" width="1280" height="855" loading="lazy">
+<figcaption>The Changes view highlights what was reworded.</figcaption></figure>
+<p>A humanizer is not the same as a paraphraser. A paraphraser swaps words; a humanizer also changes rhythm and structure. The difference is covered in <a href="https://texthumanizer.site/blog/ai-humanizer-vs-paraphrasing-tool">AI humanizer vs paraphrasing tool</a>.</p>
+</section>
+
+<section id="tools">
+<h2>The free tools</h2>
+<table>
+<tr><th>Tool</th><th>What it does</th></tr>
+<tr><td><a href="https://texthumanizer.site/ai-humanizer">AI Humanizer</a></td><td>Rewrites AI-sounding text in your chosen style and shows what changed.</td></tr>
+<tr><td><a href="https://texthumanizer.site/grammar-checker">Grammar Checker</a></td><td>Finds spelling, grammar and punctuation errors and lists each correction.</td></tr>
+<tr><td><a href="https://texthumanizer.site/ai-detector">AI Content Detector</a></td><td>Scores how AI-like the writing style looks and marks the sentences that drive it.</td></tr>
+<tr><td><a href="https://texthumanizer.site/plagiarism-checker">Plagiarism Checker</a></td><td>Searches the web for sentences that match existing pages and links the source.</td></tr>
+</table>
+<figure><img src="img/grammar-result.webp" alt="Grammar checker listing corrections with the corrected text" width="1280" height="581" loading="lazy">
+<figcaption>Grammar Checker: each correction is listed so you can accept or ignore it.</figcaption></figure>
+<figure><img src="img/detector-verdict.webp" alt="AI content detector verdict with sentence-level highlights" width="1280" height="776" loading="lazy">
+<figcaption>AI Content Detector: a style-based verdict with sentence-level highlights.</figcaption></figure>
+
+<h3>Limits</h3>
+<p>Guests and free accounts can process up to 500 words per request and 5,000 words per month. Paid plans raise those limits; see the <a href="https://texthumanizer.site/pricing">pricing page</a>.</p>
+</section>
+
+<section id="honest">
+<h2>What to keep in mind</h2>
+<p>The <strong>Human Score</strong> and the AI Content Detector are the tool's own style heuristics. They are not predictions of what any school or third-party detector will say, and no tool can promise that. Use them to see which sentences still read as generic, then edit those.</p>
+<p>If you are writing for school or work, check the rules that apply to you: <a href="https://texthumanizer.site/blog/using-ai-for-school-and-work-writing">using AI for school and work writing</a> covers disclosure and sensible use. Always read the final text yourself, because a rewrite can occasionally shift nuance.</p>
+</section>
+
+<section id="faq">
+<h2>FAQ</h2>
+<details><summary>Is it free?</summary><p>Yes, within the limits above. No account is needed to try it.</p></details>
+<details><summary>Does it change my meaning?</summary><p>It aims to keep the meaning, but review the result. The Changes tab shows every edit, and you can rewrite single sentences.</p></details>
+<details><summary>Can it guarantee a detector will pass my text?</summary><p>No. Detectors differ and change over time, so no honest tool can guarantee it. The best protection is a draft that carries your own specifics and voice.</p></details>
+<details><summary>Is my text stored?</summary><p>See the <a href="https://texthumanizer.site/privacy-policy">privacy policy</a> for exactly what is kept.</p></details>
+<details><summary>Is the code open?</summary><p>Yes, the source is on <a href="https://github.com/mani-django09/texthumanizer">GitHub</a>: a Next.js frontend and an Express backend.</p></details>
+</section>
+</main>
+
+<footer><div class="wrap">Text Humanizer · <a href="https://texthumanizer.site">texthumanizer.site</a> · <a href="https://github.com/mani-django09/texthumanizer">Source on GitHub</a></div></footer>
+</body>
+</html>
