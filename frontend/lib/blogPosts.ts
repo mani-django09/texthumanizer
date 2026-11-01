@@ -79,7 +79,7 @@ export const blogPosts: BlogPost[] = [...morePosts, ...extraPosts, ...basePosts]
 
 /** Static cover image for a post (also used as its social share image). */
 // ?v= busts the week-long image cache when a cover is redrawn.
-export const coverFor = (slug: string) => `/images/blog/${slug}.webp?v=2`;
+export const coverFor = (slug: string) => `/images/blog/${slug}.webp?v=3`;
 
 export function getBlogPost(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);
