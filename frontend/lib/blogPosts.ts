@@ -9,6 +9,7 @@ export interface BlogPost {
 }
 
 import { extraPosts } from './blogPostsExtra';
+import { morePosts } from './blogPostsMore';
 
 const basePosts: BlogPost[] = [
   {
@@ -74,7 +75,7 @@ const basePosts: BlogPost[] = [
   },
 ];
 
-export const blogPosts: BlogPost[] = [...extraPosts, ...basePosts];
+export const blogPosts: BlogPost[] = [...morePosts, ...extraPosts, ...basePosts];
 
 /** Static cover image for a post (also used as its social share image). */
 // ?v= busts the week-long image cache when a cover is redrawn.
